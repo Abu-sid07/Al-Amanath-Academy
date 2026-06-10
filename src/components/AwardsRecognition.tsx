@@ -28,11 +28,11 @@ const trainerAwards = [
   { src: '/sir%20pics/481246831_634567542627835_1014038968035866771_n.jpg', title: 'Trainer Excellence' },
   { src: '/sir%20pics/481660449_634567545961168_1693354527378387303_n.jpg', title: 'Leadership' },
   { src: '/sir%20pics/481918591_634567422627847_6682496788093571593_n.jpg', title: 'Dedication' },
-  { src: '/sir%20pics/482246911_639560925461830_2891638049363833823_n.jpg', title: 'Excellence in Teaching' },
   { src: '/sir%20pics/482345266_639560785461844_4201294739384801495_n.jpg', title: 'Inspirational Trainer' },
-  { src: '/sir%20pics/482360234_639561052128484_7298897603517648716_n.jpg', title: 'Student Advocate' },
   { src: '/sir%20pics/483487961_639068305511092_440859942640669885_n.jpg', title: 'Mentor Excellence' },
   { src: '/sir%20pics/483576924_639561048795151_1896818042193643701_n.jpg', title: 'Community Builder' },
+  { src: '/sir%20pics/482360234_639561052128484_7298897603517648716_n.jpg', title: 'Student Advocate' },
+  { src: '/sir%20pics/482246911_639560925461830_2891638049363833823_n.jpg', title: 'Excellence in Teaching' }
 ];
 
 export default function AwardsRecognition() {

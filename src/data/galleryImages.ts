@@ -87,15 +87,22 @@ export const publicSpeakingImages = [
 ];
 
 export const spokenEnglishImages = [
-  '/spoken%20english%20classes/545199349_777177195033535_5028431661689465727_n.jpg',
-  '/spoken%20english%20classes/545387235_777176665033588_1757665555296444297_n.jpg',
-  '/spoken%20english%20classes/545410019_777177975033457_222348135739833426_n.jpg',
-  '/spoken%20english%20classes/545545521_777178055033449_6772523305967749929_n.jpg',
-  '/spoken%20english%20classes/WhatsApp%20Image%202026-06-10%20at%2013.07.23.jpeg',
+  '/spoken%20english%20class/492974029_687409334010322_6271772451946669451_n.jpg',
+  '/spoken%20english%20class/495494213_687409477343641_75261163501091261_n.jpg',
+  '/spoken%20english%20class/545199349_777177195033535_5028431661689465727_n.jpg',
+  '/spoken%20english%20class/545387235_777176665033588_1757665555296444297_n.jpg',
+  '/spoken%20english%20class/545410019_777177975033457_222348135739833426_n.jpg',
+  '/spoken%20english%20class/545545521_777178055033449_6772523305967749929_n.jpg',
+  '/spoken%20english%20class/608195846_868708765880377_8726834261529339240_n.jpg',
+  '/spoken%20english%20class/classroom.jpg.jpg',
+  '/spoken%20english%20class/WhatsApp%20Image%202026-06-10%20at%2013.07.21.jpeg',
+  '/spoken%20english%20class/WhatsApp%20Image%202026-06-10%20at%2013.07.23.jpeg',
+  '/spoken%20english%20class/WhatsApp%20Image%202026-06-10%20at%2013.07.37.jpeg',
 ];
 
 export const communityProgramImages = [
   '/community%20pro/492974029_687409334010322_6271772451946669451_n.jpg',
+  '/community%20pro/xdhy788.png',
   '/community%20pro/495494213_687409477343641_75261163501091261_n.jpg',
   '/community%20pro/545199349_777177195033535_5028431661689465727_n.jpg',
   '/community%20pro/545298236_777177588366829_5741880880748477631_n.jpg',
@@ -103,9 +110,9 @@ export const communityProgramImages = [
   '/community%20pro/545387235_777176665033588_1757665555296444297_n.jpg',
   '/community%20pro/545410019_777177975033457_222348135739833426_n.jpg',
   '/community%20pro/545545521_777178055033449_6772523305967749929_n.jpg',
-  '/community%20pro/546272256_777177915033463_5093279663695950877_n.jpg',
   '/community%20pro/608195846_868708765880377_8726834261529339240_n.jpg',
   '/community%20pro/WhatsApp%20Image%202026-06-10%20at%2013.07.23.jpeg',
+  '/community%20pro/WhatsApp Image 2026-06-11 at 00.02.31.jpeg',
 ];
 
 export const studentActivitiesImages = [
@@ -114,4 +121,5 @@ export const studentActivitiesImages = [
   '/Student%20Activities/hero-bg.jpg.jpeg',
   '/Student%20Activities/WhatsApp%20Image%202026-06-10%20at%2013.07.14.jpeg',
   '/Student%20Activities/WhatsApp%20Image%202026-06-10%20at%2013.15.53.jpeg',
+  '/Student%20Activities/WhatsApp Image 2026-06-11 at 00.02.30.jpeg'
 ];

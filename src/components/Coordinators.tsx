@@ -22,7 +22,7 @@ const coordinators = [
     image: '/abu.jpeg',
   },
   {
-    name: 'Mujahith',
+    name: 'Musthahim',
     position: 'Student Coordinator',
     qualification: '',
     role: '19th Batch Leader',
