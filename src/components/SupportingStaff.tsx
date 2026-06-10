@@ -5,12 +5,13 @@ import SectionTitle from './SectionTitle';
 
 const supportingStaff = [
   {
-    name: 'Al Ameen',
-    role: 'Supporting Staff',
+    name: 'G. Noorul Ameen',
+    role: 'Spoken Tutor & Supportive Teacher',
+    qualification: 'B.A. English Literature',
     description:
-      'A very humble person who brings warmth to every classroom. He teaches grammar with clarity and patience, helping students build a strong foundation in English.',
+      'A dedicated educator with expertise in English Literature. Serves as a Spoken Tutor and Supportive Teacher at Al Amanath English Academy, committed to helping students master English communication and develop strong language foundations.',
     icon: BookOpen,
-    image: '/ameen sir.png',
+    image: '/ameen sir.jpeg',
   },
 ];
 
@@ -37,7 +38,7 @@ export default function SupportingStaff() {
             >
               <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full shadow-lg">
                 {staff.image ? (
-                  <img src={staff.image} alt={staff.name} className="h-full w-full object-cover" />
+                  <img src={staff.image} alt={staff.name} className="h-full w-full object-cover object-center" />
                 ) : (
                   <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary to-primary-light text-2xl font-bold text-white">
                     {staff.name.charAt(0)}
@@ -47,6 +48,9 @@ export default function SupportingStaff() {
               <div>
                 <h4 className="font-playfair text-xl font-bold text-dark">{staff.name}</h4>
                 <p className="font-poppins text-xs font-semibold text-primary">{staff.role}</p>
+                {staff.qualification && (
+                  <p className="font-inter text-xs text-gray-600 mt-1">{staff.qualification}</p>
+                )}
                 <p className="mt-2 font-inter text-sm text-gray-500 leading-relaxed">{staff.description}</p>
               </div>
             </motion.div>
