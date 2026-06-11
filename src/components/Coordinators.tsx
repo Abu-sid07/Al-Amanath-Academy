@@ -14,6 +14,13 @@ const responsibilities = [
 
 const coordinators = [
   {
+    name: 'V.P Kabeer',
+    position: 'Coordinator',
+    role: 'Al Amanath Welfare Association',
+    responsibility: 'Academy Management & Welfare Activities',
+    image: '/kabeer.jpeg',
+  },
+  {
     name: 'Abubacker Siddique',
     position: 'Coordinator',
     qualification: 'BCA',
@@ -116,7 +123,7 @@ export default function Coordinators() {
                 <img
                   src={coord.image}
                   alt={coord.name}
-                  className="h-full w-full object-cover object-[center_15%] scale-110"
+                  className="h-full w-full object-cover object-[center_25%]"
                 />
               </div>
               <h4 className="font-playfair text-lg font-bold text-dark">{coord.name}</h4>
