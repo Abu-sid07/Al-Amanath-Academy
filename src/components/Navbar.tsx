@@ -54,7 +54,7 @@ export default function Navbar() {
           >
             <div className="h-10 w-10 overflow-hidden rounded-full shadow-md ring-2 ring-white/20">
               <img
-                src="/images/academy-logo.png"
+                src="/images/academy-logo.jpeg"
                 alt="Al Amanath English Academy"
                 className="h-full w-full object-cover"
               />

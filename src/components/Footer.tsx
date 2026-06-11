@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="mb-4 flex items-center gap-3">
               <div className="h-10 w-10 overflow-hidden rounded-full ring-2 ring-white/10">
                 <img
-                  src="/images/academy-logo.png"
+                  src="/images/academy-logo.jpeg"
                   alt="Al Amanath English Academy"
                   className="h-full w-full object-cover"
                 />

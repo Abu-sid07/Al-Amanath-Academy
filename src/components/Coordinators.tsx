@@ -22,12 +22,12 @@ const coordinators = [
     image: '/abu.jpeg',
   },
   {
-    name: 'Musthahim',
+    name: 'Mohamed Musthakeem.A',
     position: 'Student Coordinator',
-    qualification: '',
-    role: '19th Batch Leader',
+    qualification: 'BBA',
+    role: '19th Batch Leader & Event Organizer',
     responsibility: 'Student Leadership',
-    image: '/Muja.jpeg',
+    image: '/mus.jpeg',
   },
 ];
 

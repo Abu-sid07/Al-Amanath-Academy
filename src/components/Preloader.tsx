@@ -61,7 +61,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
         >
           <div className="h-24 w-24 overflow-hidden rounded-full shadow-2xl ring-4 ring-secondary/30">
             <img
-              src="/images/academy-logo.png"
+              src="/images/academy-logo.jpeg"
               alt="Al Amanath English Academy"
               className="h-full w-full object-cover"
             />

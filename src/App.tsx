@@ -16,7 +16,7 @@ import Coordinators from './components/Coordinators';
 import AwardsRecognition from './components/AwardsRecognition';
 import SuccessStories from './components/SuccessStories';
 import Gallery from './components/Gallery';
-
+import OurProudMoments from './components/OurProudMoments';
 import Admissions from './components/Admissions';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -48,6 +48,7 @@ export default function App() {
         <section id="awards"><AwardsRecognition /></section>
         <section id="success-stories"><SuccessStories /></section>
         <section id="gallery"><Gallery /></section>
+        <section id="proud-moments"><OurProudMoments /></section>
         <section id="admissions"><Admissions /></section>
         <section id="contact"><Contact /></section>
       </main>
