@@ -32,9 +32,9 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white w-full max-w-full overflow-x-hidden">
       <Navbar />
-      <main>
+      <main className="w-full max-w-full overflow-x-hidden">
         <section id="home"><Hero /></section>
         <section id="stats"><Stats /></section>
         <section id="about"><About /></section>

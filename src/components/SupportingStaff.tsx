@@ -6,12 +6,12 @@ import SectionTitle from './SectionTitle';
 const supportingStaff = [
   {
     name: 'G. Noorul Ameen',
-    role: 'Spoken Tutor & Supportive Teacher',
-    qualification: 'B.A. English Literature',
+    role: 'Students Support, New Students Guidance, Advanced Grammar Teacher, Instant Topic & Speech Trainer, Debate Program Organizer',
+    qualification: '',
     description:
-      'A dedicated educator with expertise in English Literature. Serves as a Spoken Tutor and Supportive Teacher at Al Amanath English Academy, committed to helping students master English communication and develop strong language foundations.',
+      'English is not a Knowledge. It is merely a Language. If we have a Passion and Love for learning a language. Any language in the World we can certainly become highly proficient & Master in it....!',
     icon: BookOpen,
-    image: '/ameen sir.jpeg',
+    image: '/Ameensir.jpeg',
   },
 ];
 
@@ -27,31 +27,32 @@ export default function SupportingStaff() {
           description="Dedicated team members who support students and strengthen the academy every day."
         />
 
-        <div ref={ref} className="mx-auto grid max-w-2xl gap-6">
+        <div ref={ref} className="mx-auto grid max-w-3xl gap-6">
           {supportingStaff.map((staff, i) => (
             <motion.div
               key={staff.name}
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="flex flex-col items-center gap-4 rounded-2xl border border-gray-100 bg-white p-8 text-center shadow-md sm:flex-row sm:text-left"
+              className="flex flex-col items-center gap-8 rounded-3xl border border-gray-100 bg-white p-10 shadow-xl sm:flex-row sm:text-left gradient-border"
             >
-              <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full shadow-lg">
+              <div className="h-36 w-36 shrink-0 overflow-hidden rounded-full shadow-xl ring-4 ring-primary/20">
                 {staff.image ? (
-                  <img src={staff.image} alt={staff.name} className="h-full w-full object-cover object-center" />
+                  <img src={staff.image} alt={staff.name} className="h-full w-full object-cover object-top" />
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary to-primary-light text-2xl font-bold text-white">
+                  <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-primary to-primary-light text-4xl font-bold text-white">
                     {staff.name.charAt(0)}
                   </div>
                 )}
               </div>
-              <div>
-                <h4 className="font-playfair text-xl font-bold text-dark">{staff.name}</h4>
-                <p className="font-poppins text-xs font-semibold text-primary">{staff.role}</p>
+              <div className="flex-1">
+                <h4 className="font-playfair text-2xl font-bold text-dark mb-2">{staff.name}</h4>
+                <p className="font-poppins text-sm font-semibold text-primary mb-4">{staff.role}</p>
                 {staff.qualification && (
-                  <p className="font-inter text-xs text-gray-600 mt-1">{staff.qualification}</p>
+                  <p className="font-inter text-sm text-gray-600 mb-3">{staff.qualification}</p>
                 )}
-                <p className="mt-2 font-inter text-sm text-gray-500 leading-relaxed">{staff.description}</p>
+                <p className="font-inter text-base text-gray-600 leading-relaxed italic">{staff.description}</p>
+                <p className="font-inter text-right mt-3 text-sm text-gray-400">- G. Noorul Ameen</p>
               </div>
             </motion.div>
           ))}
