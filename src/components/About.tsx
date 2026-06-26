@@ -45,7 +45,7 @@ export default function About() {
               transition={{ duration: 3, repeat: Infinity }}
               className="absolute -bottom-6 -right-4 rounded-2xl bg-white p-5 shadow-xl md:-right-8"
             >
-              <p className="font-poppins text-3xl font-bold text-primary">6+</p>
+              <p className="font-poppins text-3xl font-bold text-primary">12+</p>
               <p className="font-inter text-sm text-gray-500">Years of Impact</p>
             </motion.div>
 
